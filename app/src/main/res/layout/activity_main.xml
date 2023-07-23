@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Demo possible Glide issue" />
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:padding="3dp"
+        android:src="@drawable/avatar_default" />
+
+    <Button
+        android:id="@+id/loadAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load without compositing" />
+
+    <Button
+        android:id="@+id/loadAvatarComposite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load with compositing" />
+</LinearLayout>
